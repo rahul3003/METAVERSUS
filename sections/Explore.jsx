@@ -2,7 +2,7 @@
 
 const Explore = () => (
   <section>
-    Explore section  sg
+    Explore section  
   </section>
 );
 
