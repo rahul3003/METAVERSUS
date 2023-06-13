@@ -4,17 +4,17 @@ import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World }
 const Page = () => (
   <div className='bg-primary-black overflow-hidden'>
     <Navbar />
-    <div className='realtive'>
+    <div className='relative'>
       <Hero />
       <div className='gradient-03 z-0' />
       <About />
     </div>
-    <div className='realtive'>
+    <div className='relative'>
       <Explore />
       <div className='gradient-04 z-0' />
       <GetStarted />
     </div>
-    <div className='realtive'>
+    <div className='relative'>
       <WhatsNew />
       <div className='gradient-04 z-0' />
       <World />
