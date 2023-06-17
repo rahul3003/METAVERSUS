@@ -15,7 +15,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
   transition-[flex] duration-[0.75] cursor-pointer ease-in-out`}
     onClick={() => handleClick(id)}>
     <img src={imgUrl} alt={title}
-      className='absolute w-full h-full object-cover rounded-[24px]' />
+      className='absolute w-full h-full object-cover rounded-lg' />
     {active !== id ? (
       <h3 className='font-semibold sm:text-[26px] text-[18px]
        text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]'>{title}</h3>
@@ -28,7 +28,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
         </div>
         <p className='text-[16px] font-normal
          leading-[20px] text-white uppercase'>Enter Meta</p>
-        <h2 className='mt-[24px] font-semibold sm:text-[24px] text-[24px] text-white'>{title}</h2>
+        <h2 className='mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white'>{title}</h2>
       </div>
     )}
   </motion.div>
