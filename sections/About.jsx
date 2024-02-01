@@ -35,7 +35,7 @@ const About = () => (
            devices you can easily 
            the metaverse world you want, turn your dreams into reality. Let's explore the madness of the metaverse by scrolling down
            <span className='font-extrabold text-white'>
-            explore 
+            explore vvxcvcxvrter
             </span> 
         </motion.p>
         <motion.img
